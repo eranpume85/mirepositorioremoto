@@ -1,0 +1,154 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    /* Color de fondo blanco */
+    color: #333;
+    /* Color de texto oscuro */
+}
+
+/* Barra de menú */
+header {
+    background-color: #3411e6;
+    /* Color de fondo rosado pastel */
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    /* Color de texto oscuro */
+}
+
+/* Secciones */
+section {
+    padding: 50px;
+}
+
+section h1,
+section h2 {
+    color: #e3a326;
+    /* Color dorado */
+}
+
+/* Formulario de contacto */
+form label,
+form input,
+form textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 5px;
+}
+
+form button {
+    background-color: #fad2e1;
+    /* Color de fondo rosado pastel */
+    border: none;
+    padding: 10px 20px;
+    color: #333;
+    /* Color de texto oscuro */
+    cursor: pointer;
+}
+
+/* Pie de página */
+footer {
+    background-color: #fad2e1;
+    /* Color de fondo rosado pastel */
+    padding: 10px;
+    text-align: center;
+}
+
+.social-media a {
+    color: #0004ff;
+    font-size: 24px;
+    margin-right: 10px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+  }
+  
+  .header {
+    padding: 20px;
+    background-color: #fad2e1;
+  }
+  
+  .main {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .footer {
+    padding: 20px;
+    background-color: #fad2e1;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #fad2e1;
+    padding: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  main {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background-color: #fad2e1;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .social-media {
+    margin-bottom: 10px;
+  }
+  
+  .social-media a {
+    color: #333;
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
